@@ -1,0 +1,7 @@
+02:33:28.004 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+02:33:28.217 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+02:33:28.280 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+02:33:28.283 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+02:33:35.630 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+02:33:47.000 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
+02:33:47.015 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
