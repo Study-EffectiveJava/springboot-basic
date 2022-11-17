@@ -1,0 +1,17 @@
+20:23:30.264 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:23:33.221 [main] INFO  c.p.s.app.VoucherApplication - List up all Vouchers.
+20:23:39.124 [main] INFO  c.p.s.app.VoucherApplication - New Voucher created.
+20:24:33.575 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:24:38.662 [main] INFO  c.p.s.app.VoucherApplication - New Voucher created.
+20:24:39.646 [main] INFO  c.p.s.app.VoucherApplication - Exit Voucher application.
+20:25:33.699 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:25:37.082 [main] INFO  c.p.s.app.VoucherApplication - Exit Voucher application.
+20:26:08.399 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:26:10.240 [main] INFO  c.p.s.app.VoucherApplication - List up all blacked users.
+20:26:12.376 [main] INFO  c.p.s.app.VoucherApplication - Exit Voucher application.
+20:28:07.161 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:28:08.455 [main] INFO  c.p.s.app.VoucherApplication - Exit Voucher application.
+20:28:30.600 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:28:32.037 [main] INFO  c.p.s.app.VoucherApplication - Exit Voucher application.
+20:28:50.805 [main] INFO  c.p.s.app.VoucherApplication - Voucher application started successfully.
+20:28:52.844 [main] INFO  c.p.s.app.VoucherApplication - List up all Vouchers.

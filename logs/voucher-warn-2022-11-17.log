@@ -1,0 +1,29 @@
+19:58:42.149 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
+20:01:09.945 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
+20:24:38.660 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:28:52.843 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:39:10.931 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:39:58.354 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:40:42.084 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:41:17.507 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+20:41:40.455 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:47:56.636 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:48:32.028 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:48:32.239 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:49:46.968 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:51:12.402 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:56:23.996 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:56:24.205 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:58:24.162 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:58:24.373 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:58:42.376 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:58:42.605 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:58:42.671 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:58:42.673 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:59:04.376 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
+21:59:04.392 [main] WARN  c.p.s.voucher.VoucherType - InvalidVoucherTypeException occurred when getting voucher type from console. Invalid voucher type input was provided
+21:59:44.875 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:59:52.176 [main] WARN  c.p.s.voucher.factory.VoucherFactory - NumberFormatException occurred when parsing amount input. Cannot parse String to Integer
+21:59:52.377 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:59:52.437 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
+21:59:52.440 [main] WARN  c.p.s.voucher.domain.PercentVoucher - AmountOutOfBoundException occurred when creating new Voucher. Amount dut of boundary.
