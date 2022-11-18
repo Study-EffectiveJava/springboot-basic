@@ -1,0 +1,74 @@
+21:20:32.739 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 32226 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+21:20:32.742 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
+21:20:33.702 [main] INFO  org.prgrms.Application - Started Application in 1.44 seconds (JVM running for 2.323)
+21:20:35.271 [main] INFO  o.p.voucher.VoucherCommandLineRunner - Menu : CREATE
+21:20:36.814 [main] INFO  o.p.voucher.VoucherCommandLineRunner - voucher_type : FIXED input_amount: 10
+21:20:37.356 [main] INFO  o.p.voucher.VoucherCommandLineRunner - saved_voucher: *** FixedAmountVoucher ***
+voucherId : a1d331b5-4167-445a-b325-4d2b6322f5a6
+discountAmount: 10won
+21:20:38.587 [main] INFO  o.p.voucher.VoucherCommandLineRunner - Menu : LIST
+21:20:38.631 [main] INFO  o.p.voucher.VoucherCommandLineRunner - voucherList: [*** PercentDiscountVoucher ***
+voucherId : 32cb8094-bca3-46a1-aed5-b6e690ad328e
+discountRate: 10%, *** FixedAmountVoucher ***
+voucherId : a1d331b5-4167-445a-b325-4d2b6322f5a6
+discountAmount: 10won]
+21:20:44.015 [main] INFO  o.p.voucher.VoucherCommandLineRunner - Menu : BLACK
+21:20:44.039 [main] INFO  o.p.voucher.VoucherCommandLineRunner - customer_blacklist: [-----------------------------------, customer_Id: f065331b-b419-47b1-b1bb-92c3b53ab1a2, customer_name: Ms. Lauren Ondricka, registered_date: 2022-11-11T20:21:14.167475, -----------------------------------, customer_Id: 7bffa4f4-b1b8-49dd-a205-ec2374900e7c, customer_name: Ophelia Koelpin, registered_date: 2022-11-11T20:21:14.172722, -----------------------------------, customer_Id: 97bb93f1-b236-4ba8-8164-ed9ed8e2dd57, customer_name: Barton Wiegand Jr., registered_date: 2022-11-11T20:21:14.173098, -----------------------------------, customer_Id: f35fa905-e4fc-4ed5-be03-5e49821fb6d5, customer_name: Fabiola Sporer II, registered_date: 2022-11-11T20:21:14.173382, -----------------------------------, customer_Id: 5f6e5ca3-8be0-4409-898e-55c7548c154b, customer_name: Magali Halvorson, registered_date: 2022-11-11T20:21:14.173628, -----------------------------------, customer_Id: 9eca1284-8d78-47b7-be6e-adccbc231de1, customer_name: Leanne Lynch, registered_date: 2022-11-11T20:21:14.174468, -----------------------------------, customer_Id: 27b173d2-4ac2-43c9-8e2c-aed7055d2ece, customer_name: Dr. Melisa Fay, registered_date: 2022-11-11T20:21:14.174811, -----------------------------------, customer_Id: 07f83723-c5a2-4b45-8b0c-d2584545ec2b, customer_name: Alta Hane, registered_date: 2022-11-11T20:21:14.175030, -----------------------------------, customer_Id: c876cf08-f5d3-4894-af66-a787bd7d97aa, customer_name: Candido Ledner, registered_date: 2022-11-11T20:21:14.175292, -----------------------------------, customer_Id: 2b5081e3-917d-4196-bb2b-19a660ec6210, customer_name: Irving Hessel DVM, registered_date: 2022-11-11T20:21:14.175711]
+21:21:27.520 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 32284 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+21:21:27.522 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
+21:21:28.490 [main] INFO  org.prgrms.Application - Started Application in 1.376 seconds (JVM running for 2.06)
+21:21:29.820 [main] ERROR o.p.voucher.VoucherCommandLineRunner - message: The command dddcould not be found. Please re-enter
+org.prgrms.exception.NoSuchMenuTypeException: The command dddcould not be found. Please re-enter
+	at org.prgrms.voucher.MenuType.lambda$of$1(MenuType.java:22)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.prgrms.voucher.MenuType.of(MenuType.java:22)
+	at org.prgrms.voucher.VoucherCommandLineRunner.execute(VoucherCommandLineRunner.java:58)
+	at org.prgrms.voucher.VoucherCommandLineRunner.run(VoucherCommandLineRunner.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at org.prgrms.Application.main(Application.java:10)
+21:21:31.285 [main] INFO  o.p.voucher.VoucherCommandLineRunner - Menu : CREATE
+21:21:32.186 [main] WARN  o.p.voucher.VoucherCommandLineRunner - message: Only numbers can be entered. *current input value: ddd
+java.lang.RuntimeException: Only numbers can be entered. *current input value: ddd
+	at org.prgrms.console.Validator.parseNum(Validator.java:9)
+	at org.prgrms.voucher.VoucherCommandLineRunner.enteredVoucherType(VoucherCommandLineRunner.java:109)
+	at org.prgrms.voucher.VoucherCommandLineRunner.createVoucher(VoucherCommandLineRunner.java:94)
+	at org.prgrms.voucher.VoucherCommandLineRunner.execute(VoucherCommandLineRunner.java:67)
+	at org.prgrms.voucher.VoucherCommandLineRunner.run(VoucherCommandLineRunner.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at org.prgrms.Application.main(Application.java:10)
+21:21:33.058 [main] WARN  o.p.voucher.VoucherCommandLineRunner - message: number ' 333 ' does not exist. Please re-enter
+org.prgrms.exception.NoSuchVoucherTypeException: number ' 333 ' does not exist. Please re-enter
+	at org.prgrms.voucher.voucherType.VoucherType.lambda$of$1(VoucherType.java:34)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at org.prgrms.voucher.voucherType.VoucherType.of(VoucherType.java:34)
+	at org.prgrms.voucher.VoucherCommandLineRunner.enteredVoucherType(VoucherCommandLineRunner.java:110)
+	at org.prgrms.voucher.VoucherCommandLineRunner.createVoucher(VoucherCommandLineRunner.java:94)
+	at org.prgrms.voucher.VoucherCommandLineRunner.execute(VoucherCommandLineRunner.java:67)
+	at org.prgrms.voucher.VoucherCommandLineRunner.run(VoucherCommandLineRunner.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:755)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at org.prgrms.Application.main(Application.java:10)
+21:21:34.514 [main] INFO  o.p.voucher.VoucherCommandLineRunner - voucher_type : PERCENT input_amount: 10
+21:21:35.023 [main] INFO  o.p.voucher.VoucherCommandLineRunner - saved_voucher: *** PercentDiscountVoucher ***
+voucherId : 44fd33ec-de54-4449-a023-f43879b6d7d8
+discountRate: 10%
+22:35:51.637 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 37185 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+22:35:51.640 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
+22:36:15.178 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 37209 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+22:36:15.181 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
+22:36:33.987 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 37230 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+22:36:33.990 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
+22:37:06.449 [main] INFO  org.prgrms.Application - Started Application in 32.915 seconds (JVM running for 33.606)
+22:37:25.797 [main] INFO  org.prgrms.Application - Starting Application using Java 18.0.2.1 on ye-oning-ui-MacBookAir.local with PID 37293 (/Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2/target/classes started by seoyewon in /Users/seoyewon/Desktop/spring-study/dev-kdt/spring-part1/springboot-basic2)
+22:37:25.800 [main] INFO  org.prgrms.Application - The following 1 profile is active: "jdbc"
