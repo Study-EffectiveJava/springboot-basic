@@ -1,6 +1,6 @@
 package prgms.vouchermanagementapp.storage.model;
 
-import prgms.vouchermanagementapp.domain.Voucher;
+import prgms.vouchermanagementapp.voucher.model.Voucher;
 
 import java.util.List;
 

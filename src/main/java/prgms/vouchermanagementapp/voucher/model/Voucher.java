@@ -1,4 +1,4 @@
-package prgms.vouchermanagementapp.domain;
+package prgms.vouchermanagementapp.voucher.model;
 
 import java.util.UUID;
 

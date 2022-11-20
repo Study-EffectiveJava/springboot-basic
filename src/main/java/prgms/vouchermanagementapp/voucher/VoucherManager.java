@@ -1,19 +1,18 @@
 package prgms.vouchermanagementapp.voucher;
 
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-import prgms.vouchermanagementapp.domain.Voucher;
-import prgms.vouchermanagementapp.domain.model.Amount;
-import prgms.vouchermanagementapp.domain.model.Ratio;
+import prgms.vouchermanagementapp.io.model.Amount;
+import prgms.vouchermanagementapp.io.model.Ratio;
 import prgms.vouchermanagementapp.storage.Vouchers;
 import prgms.vouchermanagementapp.storage.model.VoucherRecord;
+import prgms.vouchermanagementapp.voucher.model.Voucher;
 
 @Component
 public class VoucherManager {
 
     private final Vouchers vouchers;
 
-    public VoucherManager(@Qualifier("fileVouchers") Vouchers vouchers) {
+    public VoucherManager(Vouchers vouchers) {
         this.vouchers = vouchers;
     }
 

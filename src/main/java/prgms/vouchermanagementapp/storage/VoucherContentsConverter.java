@@ -1,9 +1,9 @@
 package prgms.vouchermanagementapp.storage;
 
 import org.springframework.stereotype.Component;
-import prgms.vouchermanagementapp.domain.FixedAmountVoucher;
-import prgms.vouchermanagementapp.domain.PercentDiscountVoucher;
-import prgms.vouchermanagementapp.domain.Voucher;
+import prgms.vouchermanagementapp.voucher.model.FixedAmountVoucher;
+import prgms.vouchermanagementapp.voucher.model.PercentDiscountVoucher;
+import prgms.vouchermanagementapp.voucher.model.Voucher;
 
 @Component
 public class VoucherContentsConverter {
