@@ -1,4 +1,4 @@
-package prgms.vouchermanagementapp.io.model;
+package prgms.vouchermanagementapp.domain.model;
 
 import java.util.Objects;
 
@@ -10,7 +10,6 @@ public class Amount {
         if (amount < 0) {
             throw new IllegalArgumentException("Discount amount cannot be negative: " + amount);
         }
-
         this.amount = amount;
     }
 
